@@ -317,11 +317,17 @@ i[class="fa gair fa-bars"] {
 
 section.slider-page {
     position: relative;
+    /* height: 600px; */
+    background-image: url("../images/main/main-banner-2-1600x700.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
+
+
 section.slider-page img {
-    margin-top: 70px;
     height: 100%;
     width: 100%;
 }
