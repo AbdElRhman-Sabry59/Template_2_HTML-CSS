@@ -429,6 +429,12 @@ section.slider-page .bullet.active:hover {
     flex-wrap: wrap;
 }
 
+@media (max-width:950px) {
+    .category-items {
+        justify-content: space-around;
+    }
+}
+
 .category-item {
     display: flex;
     flex-direction: column;
